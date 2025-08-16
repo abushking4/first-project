@@ -1,0 +1,36 @@
+html, body{
+    height: 100vh;
+    width: 100%;
+    background-image: url("/backgrounds/shaam.webp");
+    /* background-size: cover; */       /* לא נראה טוב*/
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    font-family: myFont;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url("/fonts/Stylish\ Comic.otf");
+}
+
+.memo{
+    border: 2px solid black;
+    width: 1500px;
+    margin-bottom: 10px;
+}
+
+.tasksBox > div{
+    max-height: 250px;
+    max-width: 230px;
+    overflow-y: auto;
+    /* background-image: url("/backgrounds/memo.jpeg"); */
+}
+
+
+
+
+
+
