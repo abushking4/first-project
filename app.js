@@ -59,6 +59,7 @@ function saveTasks() {
 }
 
 function showTasksOnLoad() {
+    datetimeBox.min = new Date().toISOString().slice(0, 16);
     const savedAllTasks = localStorage.getItem("savedTasks");
     if (savedAllTasks) {
         allTasks = JSON.parse(savedAllTasks);
