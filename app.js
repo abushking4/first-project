@@ -41,13 +41,8 @@ function showTasks() {
     tasksBox.innerHTML = tempTasks;
 }
 
-function getMemoId(memoId) {
-    // console.log(memoId);
-    return memoId;
-}
-
 function removeMemo(getMemoId) {
-    console.log(getMemoId);
+    // console.log(getMemoId);
     allTasks.splice(getMemoId, 1);
     saveTasks();
     showTasks();
