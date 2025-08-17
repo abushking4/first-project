@@ -1,7 +1,7 @@
 html, body{
     height: 100vh;
     width: 100%;
-    background-image: url("/backgrounds/shaam.webp");
+    background-image: url("backgrounds/shaam.webp");
     /* background-size: cover; */       /* לא נראה טוב*/
 }
 
@@ -13,7 +13,7 @@ header{
 
 @font-face {
     font-family: myFont;
-    src: url("/fonts/Stylish\ Comic.otf");
+    src: url("fonts/Stylish\ Comic.otf");
 }
 
 .memo{
