@@ -24,12 +24,7 @@ header{
 
 .tasksBox > div{
     max-height: 250px;
-    max-width: 230px;
+    min-width: 160px;
     overflow-y: auto;
-    /* background-image: url("/backgrounds/memo.jpeg"); */
 }
-
-
-
-
 
